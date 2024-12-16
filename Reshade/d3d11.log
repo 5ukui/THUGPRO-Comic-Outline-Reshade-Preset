@@ -1,0 +1,732 @@
+00:07:25:477 [26504] | INFO  | Initializing crosire's ReShade version '4.2.1.542' (32-bit) built on '2019-03-04 22:32:13' loaded from "C:\Users\anon\AppData\Local\THUG Pro\d3d11.asi" to "C:\Users\anon\AppData\Local\THUG Pro\THUGPro.exe" ...
+00:07:25:576 [26504] | INFO  | Registering hooks for "user32.dll" ...
+00:07:25:576 [26504] | INFO  | > Libraries loaded.
+00:07:25:576 [26504] | INFO  | > Found 13 match(es). Installing ...
+00:07:25:606 [26504] | INFO  | Registering hooks for "ws2_32.dll" ...
+00:07:25:606 [26504] | INFO  | > Libraries loaded.
+00:07:25:606 [26504] | INFO  | > Found 8 match(es). Installing ...
+00:07:25:631 [26504] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
+00:07:25:631 [26504] | INFO  | > Libraries loaded.
+00:07:25:631 [26504] | INFO  | > Found 9 match(es). Installing ...
+00:07:25:661 [26504] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
+00:07:25:661 [26504] | INFO  | > Delayed.
+00:07:25:661 [26504] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
+00:07:25:661 [26504] | INFO  | > Delayed.
+00:07:25:661 [26504] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
+00:07:25:661 [26504] | INFO  | > Delayed until first call to an exported function.
+00:07:25:661 [26504] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
+00:07:25:661 [26504] | INFO  | > Delayed.
+00:07:25:661 [26504] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
+00:07:25:661 [26504] | INFO  | > Delayed.
+00:07:25:661 [26504] | INFO  | Initialized.
+00:07:27:264 [26504] | INFO  | Redirecting RegisterClassExA(0019FBE0 { Tony Hawk's Underground 2 }) ...
+00:07:27:264 [26504] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'Tony Hawk's Underground 2'.
+00:07:27:841 [26504] | INFO  | Redirecting Direct3DCreate9(31) ...
+00:07:27:897 [26504] | INFO  | Redirecting IDirect3D9::CreateDevice(1565CE20, 0, 1, 000F14F6, 0x44, 00786A7C, 007D69E0) ...
+00:07:27:897 [26504] | INFO  | > Dumping presentation parameters:
+00:07:27:897 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:07:27:897 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:07:27:897 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:07:27:897 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:07:27:897 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:07:27:897 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:07:27:897 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:07:27:897 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:07:27:897 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:07:27:897 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:07:27:897 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:07:27:897 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:07:27:897 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:07:27:897 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:07:27:897 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:07:27:897 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:07:27:897 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:07:27:897 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:07:27:897 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:07:28:153 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:07:32:325 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:07:32:332 [19012] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:07:32:332 [09180] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:07:32:332 [12552] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:07:32:332 [05180] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:07:32:332 [23852] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:07:32:339 [20616] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:07:32:339 [08868] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:07:32:339 [24560] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:07:32:339 [24872] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:07:32:346 [14024] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:07:32:346 [06236] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:07:32:346 [03120] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:07:32:346 [18636] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:07:32:346 [23616] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:07:32:346 [19600] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:07:32:346 [28564] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:07:32:346 [14548] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:07:32:352 [16740] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:07:32:356 [28184] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:07:32:356 [26108] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:07:32:356 [28656] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:07:32:356 [13956] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:07:32:356 [22040] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:07:32:356 [10812] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:07:32:361 [03112] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:07:32:361 [15812] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:07:32:361 [22020] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:07:32:364 [26788] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:07:32:364 [27496] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:07:32:367 [11864] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:07:32:367 [17728] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:07:32:367 [24060] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:07:32:367 [16676] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:07:32:367 [13752] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:07:32:367 [04420] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:07:32:371 [14756] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:07:32:371 [20380] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:07:32:375 [23464] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:07:32:375 [08912] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:07:32:375 [18860] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:07:32:375 [26584] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:07:32:375 [20348] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:07:32:375 [20304] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:07:32:375 [27568] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:07:32:375 [06576] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:07:32:375 [20000] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:07:32:375 [20980] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:07:32:382 [26948] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:07:32:382 [28000] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:07:32:382 [15880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:07:32:382 [03644] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:07:32:382 [02544] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:07:32:389 [21076] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:07:32:389 [19932] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:07:32:389 [01172] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:07:32:389 [23972] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:07:32:389 [07648] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:07:32:389 [16040] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:07:32:389 [28516] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:07:32:396 [28192] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:07:32:396 [27968] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:07:32:396 [27884] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:07:32:396 [23704] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:07:32:396 [12408] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:07:32:396 [27928] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:07:32:396 [26140] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:07:32:396 [23004] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:07:32:396 [10748] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:07:32:396 [09276] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:07:32:396 [09896] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:07:32:403 [09920] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:07:37:502 [26504] | INFO  | Redirecting IDirect3DDevice9::Reset(175F9C48, 00786A7C) ...
+00:07:37:502 [26504] | INFO  | > Dumping presentation parameters:
+00:07:37:502 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:07:37:502 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:07:37:502 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:07:37:502 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:07:37:502 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:07:37:502 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:07:37:502 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:07:37:502 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:07:37:502 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:07:37:502 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:07:37:502 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:07:37:502 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:07:37:502 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:07:37:502 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:07:37:502 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:07:37:502 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:07:37:502 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:07:37:502 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:07:37:502 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:07:37:510 [26504] | INFO  | Destroyed runtime environment on runtime 17676760.
+00:07:37:582 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:07:37:662 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:07:37:670 [08808] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:07:37:670 [21396] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:07:37:670 [27168] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:07:37:670 [26196] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:07:37:670 [26480] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:07:37:670 [08168] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:07:37:678 [01724] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:07:37:678 [01476] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:07:37:678 [24856] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:07:37:678 [07488] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:07:37:678 [20140] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:07:37:678 [19568] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:07:37:678 [22656] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:07:37:678 [26144] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:07:37:678 [28596] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:07:37:686 [01456] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:07:37:686 [08448] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:07:37:686 [21424] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:07:37:686 [21696] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:07:37:686 [20904] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:07:37:686 [21084] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:07:37:686 [19008] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:07:37:686 [18532] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:07:37:686 [11260] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:07:37:686 [15192] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:07:37:686 [28428] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:07:37:694 [14712] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:07:37:694 [17996] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:07:37:694 [23588] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:07:37:694 [24672] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:07:37:694 [22596] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:07:37:694 [21664] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:07:37:694 [28540] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:07:37:694 [16688] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:07:37:702 [01744] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:07:37:702 [15308] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:07:37:702 [15540] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:07:37:702 [17092] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:07:37:702 [26256] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:07:37:702 [14356] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:07:37:702 [24532] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:07:37:702 [02972] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:07:37:702 [24136] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:07:37:702 [24404] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:07:37:702 [12272] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:07:37:702 [15868] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:07:37:702 [16188] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:07:37:702 [26676] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:07:37:710 [25012] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:07:37:710 [23624] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:07:37:710 [24376] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:07:37:710 [25224] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:07:37:710 [05992] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:07:37:710 [26560] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:07:37:710 [28592] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:07:37:710 [28384] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:07:37:710 [19036] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:07:37:718 [14368] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:07:37:718 [23152] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:07:37:718 [15940] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:07:37:718 [09388] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:07:37:718 [15528] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:07:37:718 [25344] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:07:37:718 [10996] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:07:37:718 [04684] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:07:37:718 [14920] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:07:37:718 [23872] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:07:37:718 [15588] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:07:37:718 [26292] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:07:37:718 [28160] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:07:37:726 [05752] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:07:38:124 [26504] | INFO  | Loading image files for textures ...
+00:11:33:150 [26504] | INFO  | Redirecting IDirect3DDevice9::Reset(175F9C48, 00786A7C) ...
+00:11:33:150 [26504] | INFO  | > Dumping presentation parameters:
+00:11:33:150 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:11:33:150 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:11:33:150 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:11:33:150 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:11:33:150 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:11:33:150 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:11:33:150 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:11:33:150 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:11:33:150 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:11:33:150 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:11:33:150 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:11:33:150 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:11:33:150 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:11:33:150 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:11:33:150 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:11:33:150 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:11:33:150 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:11:33:150 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:11:33:150 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:11:33:157 [26504] | INFO  | Destroyed runtime environment on runtime 17676760.
+00:11:33:234 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:11:33:385 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:11:33:385 [01988] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:11:33:395 [25712] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:11:33:395 [18124] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:11:33:395 [24272] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:11:33:395 [18408] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:11:33:395 [06720] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:11:33:395 [15584] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:11:33:395 [23300] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:11:33:395 [28376] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:11:33:395 [08044] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:11:33:395 [26792] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:11:33:405 [27872] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:11:33:405 [23968] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:11:33:405 [27784] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:11:33:405 [10076] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:11:33:405 [12880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:11:33:405 [27624] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:11:33:405 [00772] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:11:33:405 [09040] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:11:33:405 [13652] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:11:33:414 [25128] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:11:33:414 [23516] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:11:33:414 [26960] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:11:33:414 [02388] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:11:33:414 [13308] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:11:33:414 [28276] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:11:33:414 [12000] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:11:33:414 [25560] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:11:33:414 [25080] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:11:33:414 [20584] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:11:33:414 [15568] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:11:33:414 [26752] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:11:33:414 [12520] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:11:33:424 [22280] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:11:33:424 [02528] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:11:33:424 [26768] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:11:33:424 [05932] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:11:33:424 [21336] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:11:33:424 [22276] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:11:33:424 [19412] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:11:33:424 [21112] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:11:33:424 [28248] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:11:33:424 [25364] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:11:33:424 [15708] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:11:33:424 [15800] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:11:33:424 [26388] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:11:33:424 [25328] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:11:33:435 [20652] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:11:33:435 [28308] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:11:33:435 [15380] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:11:33:435 [14244] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:11:33:435 [14808] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:11:33:435 [02872] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:11:33:440 [28644] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:11:33:440 [24732] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:11:33:440 [21876] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:11:33:440 [22448] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:11:33:440 [14620] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:11:33:445 [07028] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:11:33:445 [05268] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:11:33:445 [16320] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:11:33:445 [09440] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:11:33:445 [27792] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:11:33:445 [04848] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:11:33:445 [06592] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:11:33:445 [26476] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:11:33:445 [24508] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:11:33:445 [24720] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:11:33:445 [07212] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:11:33:445 [27896] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:11:33:450 [26712] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:11:33:802 [26504] | INFO  | Loading image files for textures ...
+00:18:54:515 [26504] | INFO  | Redirecting IDirect3DDevice9::Reset(175F9C48, 00786A7C) ...
+00:18:54:515 [26504] | INFO  | > Dumping presentation parameters:
+00:18:54:515 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:18:54:515 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:18:54:515 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:18:54:515 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:18:54:515 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:18:54:515 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:18:54:515 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:18:54:515 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:18:54:515 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:18:54:515 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:18:54:515 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:18:54:515 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:18:54:515 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:18:54:515 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:18:54:515 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:18:54:515 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:18:54:515 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:18:54:515 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:18:54:515 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:18:54:515 [26504] | INFO  | Destroyed runtime environment on runtime 17676760.
+00:18:54:596 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:18:54:716 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:18:54:726 [23852] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:18:54:726 [05028] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:18:54:726 [02008] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:18:54:726 [18128] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:18:54:726 [15840] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:18:54:726 [21692] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:18:54:726 [25028] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:18:54:726 [19820] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:18:54:726 [11488] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:18:54:735 [24236] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:18:54:735 [04620] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:18:54:735 [28000] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:18:54:735 [18140] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:18:54:735 [22000] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:18:54:735 [02216] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:18:54:735 [20576] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:18:54:735 [28408] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:18:54:735 [28028] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:18:54:735 [22956] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:18:54:735 [16872] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:18:54:735 [28372] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:18:54:735 [27192] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:18:54:746 [11356] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:18:54:746 [26508] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:18:54:746 [26992] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:18:54:746 [22648] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:18:54:746 [13972] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:18:54:746 [28104] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:18:54:746 [21076] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:18:54:746 [15192] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:18:54:746 [04364] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:18:54:746 [13944] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:18:54:746 [27928] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:18:54:746 [28464] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:18:54:756 [24932] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:18:54:756 [18328] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:18:54:756 [06488] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:18:54:756 [27340] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:18:54:756 [22640] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:18:54:756 [24208] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:18:54:756 [05220] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:18:54:756 [23932] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:18:54:756 [16704] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:18:54:756 [16880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:18:54:756 [22596] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:18:54:756 [20084] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:18:54:756 [23136] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:18:54:756 [20164] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:18:54:766 [07624] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:18:54:766 [10748] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:18:54:766 [04228] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:18:54:766 [15600] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:18:54:766 [10540] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:18:54:766 [24172] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:18:54:766 [27208] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:18:54:766 [26636] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:18:54:766 [27920] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:18:54:766 [12364] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:18:54:766 [26560] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:18:54:766 [18276] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:18:54:766 [20192] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:18:54:766 [03100] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:18:54:776 [26944] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:18:54:776 [13376] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:18:54:776 [18268] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:18:54:776 [01412] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:18:54:776 [16028] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:18:54:776 [11484] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:18:54:776 [07880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:18:54:776 [07732] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:18:54:781 [09896] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:18:55:156 [26504] | INFO  | Loading image files for textures ...
+00:19:38:276 [26504] | INFO  | Redirecting IDirect3DDevice9::Reset(175F9C48, 00786A7C) ...
+00:19:38:276 [26504] | INFO  | > Dumping presentation parameters:
+00:19:38:276 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:19:38:276 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:19:38:276 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:19:38:276 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:19:38:276 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:19:38:276 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:19:38:276 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:19:38:276 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:19:38:276 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:19:38:276 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:19:38:276 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:19:38:276 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:19:38:276 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:19:38:276 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:19:38:276 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:19:38:276 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:19:38:276 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:19:38:276 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:19:38:276 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:19:38:286 [26504] | INFO  | Destroyed runtime environment on runtime 17676760.
+00:19:38:356 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:19:38:486 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:19:38:496 [05892] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:19:38:496 [03108] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:19:38:496 [27656] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:19:38:496 [17064] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:19:38:496 [03396] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:19:38:496 [27196] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:19:38:496 [19140] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:19:38:496 [22628] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:19:38:496 [21964] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:19:38:496 [27696] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:19:38:496 [18448] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:19:38:506 [17320] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:19:38:506 [27160] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:19:38:506 [09664] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:19:38:506 [15048] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:19:38:506 [24560] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:19:38:506 [09472] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:19:38:506 [12048] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:19:38:506 [18088] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:19:38:506 [21160] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:19:38:506 [24964] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:19:38:506 [20568] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:19:38:506 [15576] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:19:38:516 [12224] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:19:38:516 [11416] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:19:38:516 [27744] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:19:38:516 [18748] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:19:38:516 [10336] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:19:38:516 [12664] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:19:38:516 [04356] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:19:38:516 [28036] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:19:38:516 [13064] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:19:38:516 [12688] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:19:38:516 [02708] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:19:38:526 [13300] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:19:38:526 [21236] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:19:38:526 [25480] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:19:38:526 [24780] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:19:38:526 [12552] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:19:38:526 [22076] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:19:38:526 [10372] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:19:38:526 [11636] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:19:38:526 [14356] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:19:38:526 [26140] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:19:38:526 [24384] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:19:38:526 [21084] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:19:38:526 [21804] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:19:38:526 [04084] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:19:38:526 [22100] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:19:38:526 [23268] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:19:38:536 [20348] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:19:38:536 [28596] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:19:38:536 [10812] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:19:38:536 [24880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:19:38:536 [23876] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:19:38:536 [22844] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:19:38:536 [06204] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:19:38:536 [04088] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:19:38:536 [01692] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:19:38:536 [19568] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:19:38:536 [23528] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:19:38:536 [28516] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:19:38:536 [15948] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:19:38:536 [26556] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:19:38:536 [12396] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:19:38:536 [14196] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:19:38:536 [28192] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:19:38:536 [13156] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:19:38:546 [09276] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:19:38:546 [09636] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:19:38:546 [12628] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:19:38:898 [26504] | INFO  | Loading image files for textures ...
+00:20:12:426 [26504] | INFO  | Redirecting IDirect3DDevice9::Reset(175F9C48, 00786A7C) ...
+00:20:12:426 [26504] | INFO  | > Dumping presentation parameters:
+00:20:12:426 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:20:12:426 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:20:12:426 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:20:12:426 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:20:12:426 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:20:12:426 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:20:12:426 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:20:12:426 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:20:12:426 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:20:12:426 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:20:12:426 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:20:12:426 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:20:12:426 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:20:12:426 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:20:12:426 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:20:12:426 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:20:12:426 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:20:12:426 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:20:12:426 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:20:12:426 [26504] | INFO  | Destroyed runtime environment on runtime 17676760.
+00:20:12:506 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:20:12:646 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:20:12:656 [16576] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:20:12:656 [24876] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:20:12:656 [28388] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:20:12:656 [20860] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:20:12:656 [19024] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:20:12:656 [28300] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:20:12:656 [09252] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:20:12:656 [10696] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:20:12:656 [06236] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:20:12:666 [27788] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:20:12:666 [16888] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:20:12:666 [23464] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:20:12:666 [24376] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:20:12:666 [28212] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:20:12:666 [15868] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:20:12:666 [14780] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:20:12:666 [23904] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:20:12:666 [28452] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:20:12:666 [15744] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:20:12:666 [15196] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:20:12:675 [26856] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:20:12:676 [16200] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:20:12:676 [13708] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:20:12:676 [27864] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:20:12:676 [25956] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:20:12:676 [00764] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:20:12:676 [13488] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:20:12:676 [11568] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:20:12:676 [23004] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:20:12:676 [13084] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:20:12:686 [25392] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:20:12:686 [27888] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:20:12:686 [25224] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:20:12:686 [10080] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:20:12:686 [23428] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:20:12:686 [23580] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:20:12:686 [16676] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:20:12:686 [06396] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:20:12:686 [12092] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:20:12:686 [23152] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:20:12:686 [08912] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:20:12:686 [25352] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:20:12:686 [24340] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:20:12:686 [25964] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:20:12:686 [20616] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:20:12:686 [28032] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:20:12:686 [12612] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:20:12:686 [27992] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:20:12:696 [14644] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:20:12:696 [28508] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:20:12:696 [28392] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:20:12:696 [27380] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:20:12:696 [13876] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:20:12:696 [27048] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:20:12:696 [28016] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:20:12:696 [21584] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:20:12:696 [23060] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:20:12:696 [27880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:20:12:696 [19780] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:20:12:696 [22052] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:20:12:706 [27752] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:20:12:706 [09844] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:20:12:706 [28592] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:20:12:706 [22656] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:20:12:706 [21308] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:20:12:706 [18908] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:20:12:706 [24848] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:20:12:706 [14756] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:20:12:706 [06712] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:20:12:706 [10152] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:20:12:711 [09920] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:20:13:079 [26504] | INFO  | Loading image files for textures ...
+00:22:27:806 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-22-27.png ...
+00:24:04:787 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-24-04.png ...
+00:25:42:142 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-25-42.png ...
+00:28:07:397 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-28-07.png ...
+00:28:16:837 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-28-16.png ...
+00:34:50:128 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-34-50.png ...
+00:35:00:378 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-35-00.png ...
+00:35:10:708 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-35-10.png ...
+00:35:58:918 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-35-58.png ...
+00:36:08:648 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-36-08.png ...
+00:36:19:383 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-36-19.png ...
+00:37:48:964 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-37-48.png ...
+00:40:26:209 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-40-26.png ...
+00:41:01:451 [26504] | INFO  | Redirecting IDirect3DDevice9::Reset(175F9C48, 00786A7C) ...
+00:41:01:451 [26504] | INFO  | > Dumping presentation parameters:
+00:41:01:451 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:41:01:451 [26504] | INFO  |   | Parameter                               | Value                                   |
+00:41:01:451 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:41:01:451 [26504] | INFO  |   | BackBufferWidth                         | 1920                                    |
+00:41:01:451 [26504] | INFO  |   | BackBufferHeight                        | 1080                                    |
+00:41:01:451 [26504] | INFO  |   | BackBufferFormat                        | 22                                      |
+00:41:01:451 [26504] | INFO  |   | BackBufferCount                         | 1                                       |
+00:41:01:451 [26504] | INFO  |   | MultiSampleType                         | 2                                       |
+00:41:01:451 [26504] | INFO  |   | MultiSampleQuality                      | 0                                       |
+00:41:01:451 [26504] | INFO  |   | SwapEffect                              | 1                                       |
+00:41:01:452 [26504] | INFO  |   | DeviceWindow                            | 000F14F6                                |
+00:41:01:452 [26504] | INFO  |   | Windowed                                | FALSE                                   |
+00:41:01:452 [26504] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+00:41:01:452 [26504] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+00:41:01:452 [26504] | INFO  |   | Flags                                   | 0                                       |
+00:41:01:452 [26504] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+00:41:01:452 [26504] | INFO  |   | PresentationInterval                    | 0                                       |
+00:41:01:452 [26504] | INFO  |   +-----------------------------------------+-----------------------------------------+
+00:41:01:452 [26504] | WARN  | > Multisampling is enabled. This is not compatible with depth buffer access, which was therefore disabled.
+00:41:01:454 [26504] | INFO  | Destroyed runtime environment on runtime 17676760.
+00:41:01:537 [26504] | INFO  | Recreated runtime environment on runtime 17676760.
+00:41:01:638 [26504] | WARN  | Skipping effect search path "C:\Users\anon\Documents\Shaders\Shaders" since it is not a valid path to a directory. Opening it failed with error code system:3.
+00:41:01:648 [26680] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveFog.fx".
+00:41:01:648 [22404] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Border.fx".
+00:41:01:649 [05180] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Cartoon.fx".
+00:41:01:649 [17532] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ChromaticAberration.fx".
+00:41:01:650 [28568] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\3DFX.fx".
+00:41:01:651 [17560] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ColorMatrix.fx".
+00:41:01:652 [28612] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ASCII.fx".
+00:41:01:652 [19340] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Chromakey.fx".
+00:41:01:654 [15804] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Colourfulness.fx".
+00:41:01:656 [26140] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Daltonize.fx".
+00:41:01:658 [27176] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Curves.fx".
+00:41:01:661 [02588] | ERROR | Failed to compile "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx":
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 44): error X3004: undeclared identifier 'BUFFER_COLOR_BIT_DEPTH'
+C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Deband.fx(232, 66): error X3000: syntax error: unexpected ')', expected expression
+
+00:41:01:661 [13848] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Denoise.fx".
+00:41:01:661 [16672] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Bloom.fx".
+00:41:01:661 [11724] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Comic.fx".
+00:41:01:662 [16816] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DisplayDepth.fx".
+00:41:01:662 [28536] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AmbientLight.fx".
+00:41:01:663 [05220] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DepthHaze.fx".
+00:41:01:664 [25308] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CRT.fx".
+00:41:01:664 [28316] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Emphasize.fx".
+00:41:01:665 [24504] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+00:41:01:666 [28572] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DPX.fx".
+00:41:01:668 [27660] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeHDR.fx".
+00:41:01:669 [27340] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\EyeAdaption.fx".
+00:41:01:669 [07732] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain.fx".
+00:41:01:670 [13956] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FakeMotionBlur.fx".
+00:41:01:672 [28204] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx".
+00:41:01:673 [22552] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmGrain2.fx".
+00:41:01:675 [18504] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FineSharp.fx".
+00:41:01:675 [28440] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FilmicPass.fx".
+00:41:01:676 [15460] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\CinematicDOF.fx".
+00:41:01:676 [28176] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Glitch.fx".
+00:41:01:677 [05992] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\GaussianBlur.fx".
+00:41:01:678 [24236] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Depth3D.fx".
+00:41:01:678 [15428] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Clarity.fx".
+00:41:01:679 [09440] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HighPassSharpen.fx".
+00:41:01:681 [15880] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Layer.fx".
+00:41:01:682 [26596] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HQ4X.fx".
+00:41:01:682 [23616] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Levels.fx".
+00:41:01:682 [01480] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LiftGammaGain.fx".
+00:41:01:683 [23136] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\HSLShift.fx".
+00:41:01:686 [08396] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LevelsPlus.fx".
+00:41:01:686 [26752] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LUT.fx".
+00:41:01:686 [22556] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LumaSharpen.fx".
+00:41:01:686 [28372] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MultiLUT.fx".
+00:41:01:687 [19960] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\LightDoF.fx".
+00:41:01:687 [28172] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Monochrome.fx".
+00:41:01:689 [11644] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\NightVision.fx".
+00:41:01:691 [15812] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\DOF.fx".
+00:41:01:691 [27792] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Outline.fx".
+00:41:01:691 [04852] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\FXAA.fx".
+00:41:01:692 [24024] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Sepia.fx".
+00:41:01:693 [01992] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MagicBloom.fx".
+00:41:01:694 [14144] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\PerfectPerspective.fx".
+00:41:01:694 [16092] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Prism.fx".
+00:41:01:696 [25080] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Splitscreen.fx".
+00:41:01:697 [20332] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\StageDepth.fx".
+00:41:01:698 [22576] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor.fx".
+00:41:01:700 [01832] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TriDither.fx".
+00:41:01:701 [25356] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\MXAO.fx".
+00:41:01:701 [18268] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vibrance.fx".
+00:41:01:702 [26260] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Technicolor2.fx".
+00:41:01:702 [16872] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+00:41:01:702 [02528] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIDetect.fx".
+00:41:01:702 [20776] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Tonemap.fx".
+00:41:01:702 [07908] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Nostalgia.fx".
+00:41:01:703 [26616] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\TiltShift.fx".
+00:41:01:703 [18408] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\Vignette.fx".
+00:41:01:704 [23384] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\UIMask.fx".
+00:41:01:704 [17728] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SurfaceBlur.fx".
+00:41:01:706 [06576] | INFO  | Successfully loaded "C:\Users\anon\AppData\Local\THUG Pro\reshade-shaders\Shaders\SMAA.fx".
+00:41:02:080 [26504] | INFO  | Loading image files for textures ...
+00:42:56:124 [26504] | INFO  | Saving screenshot to C:\Users\anon\AppData\Local\THUG Pro\THUGPro 2024-12-17 00-42-56.png ...
+00:49:44:671 [26504] | INFO  | Exiting ...
+00:49:44:671 [26504] | INFO  | Uninstalling 35 hook(s) ...
+00:49:44:710 [26504] | INFO  | Exited.
